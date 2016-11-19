@@ -1,0 +1,11 @@
+name: MangoEvents
+main: com.kylantraynor.mangoevents.MangoEvents
+version: 0.0.1
+commands:
+  vortexfall:
+    permission: mangoevents.vortexfall
+
+permissions:
+  mangoevents.*:
+    children:
+      mangoevents.vortexfall: true
